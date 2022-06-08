@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+*{box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+font-family: 'Josefin Sans', sans-serif;
+font-size: 20px;
+}
+body {
+    background-color:#202225;
+}
+header{
+    background-color: #292b2f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 105px;
+    padding: 5px 10%;
+}
+.header .logo img{
+    height: 80px;
+    width: auto;
+    transition: all 0.3s;
+    border-radius: 50%;
+}
+.header .logo{
+    cursor: pointer;
+}
+.header .logo img:hover  {
+    transform: scale(1.2);
+    
+}
+.header .nav_links {
+    list-style: none;
+}
+.header .nav_links li {
+display: inline-block;
+padding: 0 20px;
+}
+.header .nav_links li:hover {
+transform: scale(1.2);
+}
+
+.header .nav_links a {
+    font-size: 700;
+    color: beige;
+    text-decoration: none;
+
+}
+.header .nav_links li a:hover {
+color: #aaacad;
+}
+.header .btn button {
+    font-weight: 700;
+    color: #202225 ;
+    padding: 9px 25px;
+    background: #767779;
+    border:none ;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3;
+
+}
+.header .btn button:hover {
+    background-color: beige;
+    color:#aaacad ;
+    transform: scale(1.2);
+}
